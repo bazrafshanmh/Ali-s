@@ -4,14 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Luncher : MonoBehaviour
 {
-    public Sprite MySprite;
-    void Start()
-    {
-        if (!ChangeKnifeSkin.KnifeSkin)
-        {
-        ChangeKnifeSkin.KnifeSkin = MySprite;
-        }
-    }
     public void OnClick()
     {
         SceneManager.LoadScene("menu");
